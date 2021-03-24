@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>taller 1</title>
+</head>
+<body>
+    <header>
+        <div align = "center">
+            <img src="https://www.unab.edu.co/sites/default/files/imagenes/seccion_especial/NARANJA.png" class="title_logo" width="100px">
+            <h1 class = "header">Taller Diseño</h1>           
+        </div>
+    </header>
+    <nav>
+        <ul class = "navbar"> 
+            <li><a href="#">Inicio</a></li>
+            <li><a href="https://www.unab.edu.co/" target="_new">UNAB</a></li>            
+            <li><a href="https://www.riotgames.com/en" target="_new">Nueva pagina</a></li>
+        </ul>
+    </nav>
+    
+        <div class ="grid-content">
+        <ul class ="genre">
+            <li>Thriller</li>
+            <li>Ciencia ficción</li>
+            <li>Comedia</li>
+            <li>Terror</li>
+            <li>Animación</li>
+        </ul>
+        
+        <main>
+        <form action="POST">
+            <label for="name">Nombre de la serie:</label>
+            <input type="text" name="series_name" id="seriesName"/>
+            <br>
+            <br>
+            <select name = "calification" id="calification">
+                <option value="null">Seleccione la calificacion</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <label for="state">Estado: </label>
+            <input type="radio" name="state" id="Broadcast">En curso
+            <input type="radio" name="state" id="finished">Finalizada &nbsp; &nbsp;
+            <button type="reset" class="reset">Resetear formulario</button>
+            <button type="submit" class="search">Enviar datos</button>
+        </form>
+        <br>
+        <table border="1" width="100%">
+            <tr>
+                <th>
+                    <h2>     One piece     </h2>
+                    <h3><p>Genero: Animación
+                    <br>
+                    <br>
+                    Calificación = 4/5
+                    <br>
+                    <br>
+                    <h2 class ="broadcast">Estado: En emisión</h2>
+                    </p></h3>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/73245.jpg"/>
+                    
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <h2>Shingeki no Kyojin: The Final Season</h2>
+                    <h3><p>Genero: Animación
+                    <br>
+                    <br>
+                    Calificación = 4.5/5
+                    <br>
+                    <br>
+                    <h2 class="broadcast">Estado: En emisión</h2>
+                    </p></h3>
+                    <img src="https://cdn.myanimelist.net/images/anime/1000/110531.jpg"/>
+                </th>
+            </tr>
+        </table>
+        </main>
+        </div>
+    <footer>
+        <p style="text-align: left;">
+            Camilo Alberto Durán Ferreira
+            <br>
+            U00138338
+            <h1 class = "year">2021</h1>
+        </p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+.title_logo
+{
+    float: left;
+}
+.header
+{
+    background-color: orange;
+    color: white;
+    padding-bottom: 40px;
+    margin: 0px;  
+}
+.navbar
+{
+    width: 100%;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(228, 103, 58);
+}
+.navbar li
+{
+    background: #454545;
+    display: inline-block;
+    margin: 10px;
+    border:3px solid orange;
+}
+.navbar li a
+{
+    padding:5px 2px;
+	display:block;
+	color:orange;
+	text-decoration: none;
+}
+.grid-content{
+    display: grid;
+    grid-template-columns: 2fr 9fr;
+}
+.genre
+{
+    width: 100%;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.genre li{
+    background: orange;
+    display: block;
+    margin: 3px;
+    text-align: center;
+    padding: 10px 5px;
+    color: white;
+}
+.grid-content main
+{
+    text-align: center;
+}
+.reset
+{
+    border: 3px solid orange;
+    color:orange;
+}
+.search
+{
+    color: white;
+    background: orange;
+}
+.broadcast
+{
+    background: green;
+    color:white;
+}
+.year
+{
+    color: orange;
+}
