@@ -1,0 +1,77 @@
+.title
+{
+    padding: 40px;
+    background-color:red;
+    color:white;
+    text-align: center;
+}
+.title h1
+{
+    margin: 20px;
+}
+.pfp
+{
+    width: 100px;
+}
+body
+{
+    padding: 50px 50px 0px 50px;
+}
+.navbar
+{
+    width: 100%;
+}
+.navbar li
+{
+    text-align: center;
+    border: 2px solid red;
+    display:inline-block;
+    width: 200px;
+    padding: 20px;
+    margin: 50px 50px;
+}
+#Notas
+{
+    background-color: red;
+    color: white;
+}
+.local-menu
+{
+    color: white;
+    background-color: red;
+    height: 100%;
+}
+.local-menu li
+{
+    margin: 50px 0;
+}
+.form
+{
+    padding: 20px;
+    border: 1px solid black;
+}
+.listado
+{
+    margin-top: 20px;
+}
+.listado tr th
+{
+    padding: 20px;
+}
+.encabezados
+{
+    border-bottom: 1px solid black;
+}
+.footer
+{
+    background-color: red;
+}
+.footer h3
+{
+    color: white;
+    
+}
+.principal
+{
+    border: 1px solid red;
+}

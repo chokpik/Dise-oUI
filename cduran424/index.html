@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>U00138338 Camilo Alberto Duran Ferreira</title>
+</head>
+<body>
+    <header>
+        <table width="100%" border="0">
+            <tr>
+                <th>
+                    <h1 class="title">U00138338 Camilo Alberto Duran Ferreira</h1>
+                </th>
+                <th>
+                    <img src="images/pfp.jpg" class="pfp">
+                </th>
+            </tr>
+        </table>
+    </header>
+    <nav>
+        <ul class="navbar"> 
+            <li id="Notas">Notas</li> 
+            <li>Horario</li> 
+            <li>Docentes</li>
+            <li>Perfil</li> 
+            <li>Cerrar sesión</li>
+         </ul>
+    </nav>
+    <table border ="0" width="100%" class="principal">
+        <tr>
+            <th>
+
+                <h2>Listado notas</h2>
+                <form action="POST" class="form">
+                    <label for="name">Curso</label>
+                    <input type="text" name="course" id="course">
+                    <label for="name">Notas</label>
+                    <select name="calification" id="calification">
+                        <option value="null">Seleccione la nota</option>
+                        <option value="1">1.0</option>
+                        <option value="2">2.0</option>
+                        <option value="3">3.0</option>
+                        <option value="4">4.0</option>
+                        <option value="5">5.0</option>
+                    </select>
+                    <label for="cbox1"><input type="checkbox" name="Primer semestre" id="Primer semestre">Primer semestre</label>
+                    <label for="cbox2"><input type="checkbox" name="Segundo semestre" id="Segundo semestre">Segundo semestre</label>
+                    <label for="cbo31"><input type="checkbox" name="Tercero semestre" id="Tercero semestre">Tercero semestre</label>
+                    <label for="cbox4"><input type="checkbox" name="Cuarto semestre" id="Cuarto semestre">Cuarto semestre</label>
+                    <label for="cbox5"><input type="checkbox" name="Quinto semestre" id="Quinto semestre">Quinto semestre</label>
+                    <button type="reset" class="reset">Resetear formulario</button>
+                <button type="submit" class="search">Realizar filtro</button>
+                </form>
+                <table border="0" width="100%" class="listado">
+                    <tr>
+                        <th class="encabezados">Curso</th>
+                        <th class="encabezados">Nota</th>
+                        <th class="encabezados">Semestre</th>
+                        <th class="encabezados">Docente</th>
+                    </tr>
+                    <tr>
+                        <th>Estructura de datos y analisis de algoritmos</th>
+                        <th>4.7</th>
+                        <th>Tercer semestre</th>
+                        <th>Johlver Pardo</th>
+                    </tr>
+                    <tr>
+                        <th>Diseño de interfaces de usuario</th>
+                        <th>5</th>
+                        <th>Tercer semestre</th>
+                        <th>Juan Sebastian Cardenas</th>
+                    </tr>
+                </table>
+            </th>
+        <th class="local-menu">
+            <ul>
+                <li>Primer semestre</li>
+                <li>Segundo semestre</li>
+                <li>Tercer semestre</li>
+                <li>Cuarto semestre</li>
+                <li>Quinto semestre</li>
+            </ul>
+        </th>
+        </tr>
+    </table>
+    <footer class="footer">
+        <table width="100%">
+            <tr>
+                <th>
+                    <h3>Universidad Autónoma de Bucaramanga</h3>
+                </th>
+                <th>
+                    <h3>Parcial Diseño de Interfaces de Usuario</h3>
+                </th>
+                <th>
+                    <h3>@2021</h3>
+                </th>
+            </tr>    
+        </table>
+        
+    </footer>
+</body>
+</html>
